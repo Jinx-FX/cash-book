@@ -4,6 +4,7 @@ import PopupType from '@/components/PopupType'
 import PopupDate from '@/components/PopupDate'
 import PopupAddBill from '@/components/PopupAddBill'
 import CustomIcon from '@/components/CustomIcon';
+import Empty from '@/components/Empty'
 import { Icon, Pull } from 'zarm'
 import dayjs from 'dayjs'
 import { get, REFRESH_STATE, LOAD_STATE } from '@/utils' // Pull 组件需要的一些常量
@@ -133,7 +134,7 @@ const Home = () => {
               key={index}
             />)
           }
-        </Pull> : null
+        </Pull> : <Empty />
       }
     </div>
     <div className={s.add} onClick={addToggle}><CustomIcon type='tianjia' /></div>
