@@ -64,7 +64,7 @@ export const REFRESH_STATE = {
   loading: 3, // 加载中
   success: 4, // 加载成功
   failure: 5, // 加载失败
-};
+}
 
 export const LOAD_STATE = {
   normal: 0, // 普通
@@ -73,13 +73,13 @@ export const LOAD_STATE = {
   success: 3, // 加载成功
   failure: 4, // 加载失败
   complete: 5, // 加载完成（无新数据）
-};
+}
 
 export const imgUrlTrans = (url) => {
   if (url && url.startsWith('http')) {
     return url
   } else {
-    url = `${MODE == 'development' ? 'http://localhost:7001' : baseUrl}${url}`
+    url = `${MODE == 'development' ? baseUrl : 'http://localhost:7001'}${url}`
     return url
   }
 }
