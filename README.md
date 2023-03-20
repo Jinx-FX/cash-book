@@ -23,7 +23,7 @@
 
 ### 登录和注册用户
 
-### forwardRef 的使用
+### forwardRef 的使用 ** -> 原理
 
 forwardRef 用于拿到父组件传入的 ref 属性，这样在父组件便能通过 ref 控制子组件。
 
@@ -38,7 +38,7 @@ forwardRef 用于拿到父组件传入的 ref 属性，这样在父组件便能�
 - `lib-flexible`
 - `postcss-pxtorem` : 它的作用是在你编写完 css 后，将你的单位自动转化为 rem 单位。
 
-### 下拉刷新、上滑无限加载
+### 下拉刷新、上滑无限加载 ** -> 实现
 
 封装 Pull 组件
 
