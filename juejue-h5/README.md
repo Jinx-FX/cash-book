@@ -17,7 +17,7 @@
 - 个人中心
 - 都可进行实时编辑修改
 
-接口：http://api.chennick.wang 或见 [后端代码实现](https://github.com/Jinx-FX/juejue-server)
+接口：http://api.chennick.wang 或见 [后端代码实现](https://github.com/Jinx-FX/cash-book/tree/main/juejue-server)
 
 ## 项目深挖
 

@@ -5,7 +5,7 @@
 - `Mysql` 数据存储及表单设计
 - `egg-jwt` 用户鉴权
 - `egg-cors` 跨域实现
-- 配合 [前端实现](https://github.com/Jinx-FX/juejue-h5)
+- 配合 [前端实现](https://github.com/Jinx-FX/cash-book/tree/main/juejue-h5)
 
 
 ## 项目深挖
